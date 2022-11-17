@@ -25,7 +25,6 @@ clean_text = re.sub(r's+', ' ', clean_text)
 #Realizada a tokenização para a manipulação de dados
 sentences = nltk.sent_tokenize(clean_text)
 stop_words = nltk.corpus.stopwords.words('english')
-
 print(clean_text)
 
 #Usar os dados pré processados para contarmos a frequencia das palavras
